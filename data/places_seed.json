@@ -1,0 +1,1160 @@
+{
+  "note": "Seed data for the Workspot prototype: 17 sample places in Zurich. All places, ratings and reviews are fictional. rating_counts already include sample_reviews.",
+  "amenities": {
+    "wifi": "Fast Wi-Fi",
+    "power": "Power outlets",
+    "quiet": "Quiet zone",
+    "ac": "Air conditioning",
+    "calls": "Calls allowed",
+    "meet": "Meeting rooms",
+    "food": "Food and drinks",
+    "late": "Open late"
+  },
+  "places": [
+    {
+      "id": 1,
+      "name": "Viadukt Hub",
+      "type": "coworking",
+      "open_air": false,
+      "latitude": 47.3866,
+      "longitude": 8.529,
+      "area": "Kreis 5",
+      "address": "Viaduktstrasse, 8005 Zürich",
+      "description": "Bright open floor under the railway arches. Hot desks by the windows, phone booths and a small kitchen.",
+      "price_level": "paid",
+      "price_text": "Day pass CHF 35",
+      "open_time": "07:00",
+      "close_time": "22:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "power",
+        "ac",
+        "calls",
+        "meet",
+        "food"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/1-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/1-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/1-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 2,
+        "2": 3,
+        "3": 7,
+        "4": 19,
+        "5": 183
+      },
+      "rating_avg": 4.8,
+      "review_count": 214,
+      "added_by_name": "Lena M.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "The day pass is not cheap, but the quiet room is worth it.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Great light in the morning, gets busy after lunch.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Friendly staff and good coffee included in the pass.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Comfortable chairs and big desks, I stay the whole day.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Selnau Works",
+      "type": "coworking",
+      "open_air": false,
+      "latitude": 47.3706,
+      "longitude": 8.5318,
+      "area": "Selnau",
+      "address": "Selnaustrasse, 8001 Zürich",
+      "description": "Quiet coworking with a strict no-calls room upstairs. Good for deep work and exam weeks.",
+      "price_level": "paid",
+      "price_text": "Day pass CHF 30",
+      "open_time": "08:00",
+      "close_time": "20:00",
+      "noise": "silent",
+      "amenities": [
+        "wifi",
+        "power",
+        "quiet",
+        "ac",
+        "meet"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/2-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/2-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/2-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 1,
+        "2": 4,
+        "3": 6,
+        "4": 17,
+        "5": 103
+      },
+      "rating_avg": 4.7,
+      "review_count": 131,
+      "added_by_name": "Jonas K.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Great light in the morning, gets busy after lunch.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Friendly staff and good coffee included in the pass.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Comfortable chairs and big desks, I stay the whole day.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Fast Wi-Fi and plenty of outlets. The phone booths are a lifesaver.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Westhof Studios",
+      "type": "coworking",
+      "open_air": false,
+      "latitude": 47.3895,
+      "longitude": 8.5205,
+      "area": "Escher-Wyss",
+      "address": "Hardturmstrasse, 8005 Zürich",
+      "description": "Industrial loft with long tables. Open until midnight, dogs welcome.",
+      "price_level": "paid",
+      "price_text": "Day pass CHF 25",
+      "open_time": "07:00",
+      "close_time": "24:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "power",
+        "calls",
+        "meet",
+        "late"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/3-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/3-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/3-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 5,
+        "3": 7,
+        "4": 19,
+        "5": 57
+      },
+      "rating_avg": 4.5,
+      "review_count": 88,
+      "added_by_name": "Mira S.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Friendly staff and good coffee included in the pass.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Comfortable chairs and big desks, I stay the whole day.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Fast Wi-Fi and plenty of outlets. The phone booths are a lifesaver.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "The day pass is not cheap, but the quiet room is worth it.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Kafi Limmat",
+      "type": "cafe",
+      "open_air": false,
+      "latitude": 47.3727,
+      "longitude": 8.544,
+      "area": "Niederdorf",
+      "address": "Niederdorfstrasse, 8001 Zürich",
+      "description": "Busy old-town café with big tables at the back. Outlets along the wall bench.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 5",
+      "open_time": "07:00",
+      "close_time": "19:00",
+      "noise": "lively",
+      "amenities": [
+        "wifi",
+        "power",
+        "food"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/4-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/4-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/4-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 5,
+        "2": 13,
+        "3": 25,
+        "4": 71,
+        "5": 288
+      },
+      "rating_avg": 4.6,
+      "review_count": 402,
+      "added_by_name": "Paul R.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Friendly staff, but it fills up fast at lunch.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Good coffee and nobody minds laptops on weekdays.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Loud after 6 pm, perfect in the morning.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Only a few outlets, sit by the wall bench.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bean and Byte",
+      "type": "cafe",
+      "open_air": false,
+      "latitude": 47.379,
+      "longitude": 8.5285,
+      "area": "Langstrasse",
+      "address": "Langstrasse, 8004 Zürich",
+      "description": "Laptop-friendly café, open late. Gets loud after 18:00.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 4.50",
+      "open_time": "08:00",
+      "close_time": "23:00",
+      "noise": "lively",
+      "amenities": [
+        "wifi",
+        "power",
+        "food",
+        "late"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/5-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/5-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/5-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 18,
+        "3": 28,
+        "4": 76,
+        "5": 165
+      },
+      "rating_avg": 4.4,
+      "review_count": 287,
+      "added_by_name": "Aiko T.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Good coffee and nobody minds laptops on weekdays.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Loud after 6 pm, perfect in the morning.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 3,
+          "text": "Only a few outlets, sit by the wall bench.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Nice place for a two-hour session. Try the oat flat white.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Rösterei Seefeld",
+      "type": "cafe",
+      "open_air": false,
+      "latitude": 47.36,
+      "longitude": 8.552,
+      "area": "Seefeld",
+      "address": "Seefeldstrasse, 8008 Zürich",
+      "description": "Specialty roaster with a calm mezzanine. Few outlets, come with a full battery.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 5.50",
+      "open_time": "07:00",
+      "close_time": "18:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "food",
+        "quiet"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/6-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/6-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/6-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 4,
+        "2": 9,
+        "3": 17,
+        "4": 47,
+        "5": 279
+      },
+      "rating_avg": 4.7,
+      "review_count": 356,
+      "added_by_name": "Nina W.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Loud after 6 pm, perfect in the morning.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Only a few outlets, sit by the wall bench.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Nice place for a two-hour session. Try the oat flat white.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Friendly staff, but it fills up fast at lunch.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Plaid Café",
+      "type": "cafe",
+      "open_air": false,
+      "latitude": 47.368,
+      "longitude": 8.52,
+      "area": "Wiedikon",
+      "address": "Birmensdorferstrasse, 8003 Zürich",
+      "description": "Cozy wood-panelled room, soft chairs and long hours. Students love the window seats.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 4.80",
+      "open_time": "09:00",
+      "close_time": "21:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "power",
+        "food"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/7-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/7-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/7-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 8,
+        "3": 15,
+        "4": 36,
+        "5": 105
+      },
+      "rating_avg": 4.5,
+      "review_count": 164,
+      "added_by_name": "Tom B.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Only a few outlets, sit by the wall bench.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Nice place for a two-hour session. Try the oat flat white.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Friendly staff, but it fills up fast at lunch.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Good coffee and nobody minds laptops on weekdays.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Skyline Lounge",
+      "type": "cafe",
+      "open_air": false,
+      "latitude": 47.3858,
+      "longitude": 8.517,
+      "area": "Kreis 5",
+      "address": "Hardstrasse, 8005 Zürich",
+      "description": "High-floor lounge with a city view and air conditioning. Pricier, but rarely full in the morning.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 6",
+      "open_time": "10:00",
+      "close_time": "24:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "power",
+        "ac",
+        "food",
+        "late"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/8-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/8-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/8-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 3,
+        "2": 6,
+        "3": 12,
+        "4": 35,
+        "5": 142
+      },
+      "rating_avg": 4.6,
+      "review_count": 198,
+      "added_by_name": "Sara L.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Nice place for a two-hour session. Try the oat flat white.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Friendly staff, but it fills up fast at lunch.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Good coffee and nobody minds laptops on weekdays.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Loud after 6 pm, perfect in the morning.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Limmat Reading Room",
+      "type": "library",
+      "open_air": false,
+      "latitude": 47.374,
+      "longitude": 8.5445,
+      "area": "Altstadt",
+      "address": "Zähringerplatz, 8001 Zürich",
+      "description": "Large public reading room. Silent floors, a desk lamp on every table and plenty of outlets.",
+      "price_level": "free",
+      "price_text": "Free entry",
+      "open_time": "09:00",
+      "close_time": "20:00",
+      "noise": "silent",
+      "amenities": [
+        "wifi",
+        "power",
+        "quiet",
+        "ac"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/9-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/9-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/9-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 3,
+        "2": 4,
+        "3": 9,
+        "4": 26,
+        "5": 480
+      },
+      "rating_avg": 4.9,
+      "review_count": 522,
+      "added_by_name": "Workspot community",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Lots of space and natural light, never had to wait for a seat.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Silent floors are really silent. Arrive before 10 during exams.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Desk lamps and outlets at every table.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Wi-Fi is reliable, the chairs could be better.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Polyterrasse Study Hall",
+      "type": "library",
+      "open_air": false,
+      "latitude": 47.3765,
+      "longitude": 8.5482,
+      "area": "Hochschulen",
+      "address": "Rämistrasse, 8092 Zürich",
+      "description": "Grand university hall open to the public. Fills up during exams, so arrive before 10:00.",
+      "price_level": "free",
+      "price_text": "Free entry",
+      "open_time": "08:00",
+      "close_time": "22:00",
+      "noise": "silent",
+      "amenities": [
+        "wifi",
+        "power",
+        "quiet",
+        "late"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/10-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/10-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/10-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 5,
+        "2": 9,
+        "3": 19,
+        "4": 54,
+        "5": 524
+      },
+      "rating_avg": 4.8,
+      "review_count": 611,
+      "added_by_name": "Workspot community",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Silent floors are really silent. Arrive before 10 during exams.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Desk lamps and outlets at every table.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Wi-Fi is reliable, the chairs could be better.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "My favourite place to study for exams.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Enge Quiet Room",
+      "type": "library",
+      "open_air": false,
+      "latitude": 47.364,
+      "longitude": 8.531,
+      "area": "Enge",
+      "address": "Bederstrasse, 8002 Zürich",
+      "description": "Small neighbourhood library with a few desks by big windows. Almost never crowded.",
+      "price_level": "free",
+      "price_text": "Free entry",
+      "open_time": "10:00",
+      "close_time": "19:00",
+      "noise": "silent",
+      "amenities": [
+        "wifi",
+        "power",
+        "quiet"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/11-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/11-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/11-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 4,
+        "3": 7,
+        "4": 17,
+        "5": 69
+      },
+      "rating_avg": 4.6,
+      "review_count": 97,
+      "added_by_name": "Leo F.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Desk lamps and outlets at every table.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Wi-Fi is reliable, the chairs could be better.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "My favourite place to study for exams.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Lots of space and natural light, never had to wait for a seat.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Lindenhof Terrace",
+      "type": "outdoor",
+      "open_air": true,
+      "latitude": 47.373,
+      "longitude": 8.5407,
+      "area": "Altstadt",
+      "address": "Lindenhof, 8001 Zürich",
+      "description": "Shady benches above the river with a view over the old town. No outlets, bring a power bank.",
+      "price_level": "free",
+      "price_text": "Free",
+      "open_time": "00:00",
+      "close_time": "24:00",
+      "noise": "calm",
+      "amenities": [
+        "quiet"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/12-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/12-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/12-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 4,
+        "2": 7,
+        "3": 16,
+        "4": 45,
+        "5": 269
+      },
+      "rating_avg": 4.7,
+      "review_count": 341,
+      "added_by_name": "Workspot community",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Gets windy, but very calm in the morning.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Great for reading, not for calls.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Quiet spot, and the phone signal is good enough for a hotspot.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Beautiful view, no outlets, so bring a power bank.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Garden Café Gerold",
+      "type": "cafe",
+      "open_air": true,
+      "latitude": 47.3852,
+      "longitude": 8.52,
+      "area": "Kreis 5",
+      "address": "Geroldstrasse, 8005 Zürich",
+      "description": "Garden café between the tracks. Picnic tables under trees, open-air only.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 5",
+      "open_time": "11:00",
+      "close_time": "23:00",
+      "noise": "lively",
+      "amenities": [
+        "wifi",
+        "food",
+        "late"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/13-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/13-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/13-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 14,
+        "3": 24,
+        "4": 61,
+        "5": 177
+      },
+      "rating_avg": 4.5,
+      "review_count": 276,
+      "added_by_name": "Mira S.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Nice place for a two-hour session. Try the oat flat white.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Friendly staff, but it fills up fast at lunch.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Good coffee and nobody minds laptops on weekdays.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Loud after 6 pm, perfect in the morning.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Utoquai Lakeside",
+      "type": "outdoor",
+      "open_air": true,
+      "latitude": 47.362,
+      "longitude": 8.5478,
+      "area": "Seefeld",
+      "address": "Utoquai, 8008 Zürich",
+      "description": "Lakeside promenade with benches and lawn. Best early in the morning.",
+      "price_level": "free",
+      "price_text": "Free",
+      "open_time": "00:00",
+      "close_time": "24:00",
+      "noise": "calm",
+      "amenities": [],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/14-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/14-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/14-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 3,
+        "2": 5,
+        "3": 12,
+        "4": 33,
+        "5": 136
+      },
+      "rating_avg": 4.6,
+      "review_count": 189,
+      "added_by_name": "Workspot community",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Quiet spot, and the phone signal is good enough for a hotspot.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Beautiful view, no outlets, so bring a power bank.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Shady benches, perfect on a warm day.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Gets windy, but very calm in the morning.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Platzspitz Park",
+      "type": "outdoor",
+      "open_air": true,
+      "latitude": 47.3816,
+      "longitude": 8.541,
+      "area": "Kreis 1",
+      "address": "Museumstrasse, 8001 Zürich",
+      "description": "Park at the river fork. Quiet lawns and a few tables in the shade.",
+      "price_level": "free",
+      "price_text": "Free",
+      "open_time": "06:00",
+      "close_time": "21:00",
+      "noise": "silent",
+      "amenities": [
+        "quiet"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/15-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/15-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/15-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 8,
+        "3": 15,
+        "4": 38,
+        "5": 82
+      },
+      "rating_avg": 4.4,
+      "review_count": 143,
+      "added_by_name": "Aiko T.",
+      "created_at": "2026-09-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Beautiful view, no outlets, so bring a power bank.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Shady benches, perfect on a warm day.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "David H.",
+          "university": "ETH",
+          "rating": 3,
+          "text": "Gets windy, but very calm in the morning.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Great for reading, not for calls.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Corner Kafi Enge",
+      "type": "cafe",
+      "open_air": false,
+      "latitude": 47.3655,
+      "longitude": 8.5355,
+      "area": "Enge",
+      "address": "Tödistrasse, 8002 Zürich",
+      "description": "New in the neighbourhood: a small café with a long bar table and outlets underneath.",
+      "price_level": "paid",
+      "price_text": "Coffee from CHF 4.80",
+      "open_time": "08:00",
+      "close_time": "19:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "power",
+        "food"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/16-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/16-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/16-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 4,
+        "4": 5,
+        "5": 15
+      },
+      "rating_avg": 4.5,
+      "review_count": 24,
+      "added_by_name": "Chris D.",
+      "created_at": "2026-10-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Lea M.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Loud after 6 pm, perfect in the morning.",
+          "created_at": "2026-10-18T12:00:00+02:00"
+        },
+        {
+          "author_name": "Jonas B.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Only a few outlets, sit by the wall bench.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Mia S.",
+          "university": "UZH",
+          "rating": 5,
+          "text": "Nice place for a two-hour session. Try the oat flat white.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 4,
+          "text": "Friendly staff, but it fills up fast at lunch.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Hall of Desks",
+      "type": "coworking",
+      "open_air": false,
+      "latitude": 47.373,
+      "longitude": 8.523,
+      "area": "Kreis 3",
+      "address": "Badenerstrasse, 8004 Zürich",
+      "description": "Freshly opened coworking with height-adjustable desks and two meeting rooms.",
+      "price_level": "paid",
+      "price_text": "Day pass CHF 28",
+      "open_time": "08:00",
+      "close_time": "21:00",
+      "noise": "calm",
+      "amenities": [
+        "wifi",
+        "power",
+        "ac",
+        "calls",
+        "meet"
+      ],
+      "photos": [
+        "https://stanislawq.github.io/workspot-demo/media/p/17-1.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/17-2.jpg",
+        "https://stanislawq.github.io/workspot-demo/media/p/17-3.jpg"
+      ],
+      "rating_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      },
+      "rating_avg": 4.6,
+      "review_count": 12,
+      "added_by_name": "Eva H.",
+      "created_at": "2026-10-01T12:00:00+02:00",
+      "sample_reviews": [
+        {
+          "author_name": "Noah K.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Great light in the morning, gets busy after lunch.",
+          "created_at": "2026-10-15T12:00:00+02:00"
+        },
+        {
+          "author_name": "Sara W.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Friendly staff and good coffee included in the pass.",
+          "created_at": "2026-10-13T12:00:00+02:00"
+        },
+        {
+          "author_name": "Luca F.",
+          "university": "ETH",
+          "rating": 5,
+          "text": "Comfortable chairs and big desks, I stay the whole day.",
+          "created_at": "2026-10-06T12:00:00+02:00"
+        },
+        {
+          "author_name": "Elena R.",
+          "university": "UZH",
+          "rating": 4,
+          "text": "Fast Wi-Fi and plenty of outlets. The phone booths are a lifesaver.",
+          "created_at": "2026-09-20T12:00:00+02:00"
+        }
+      ]
+    }
+  ]
+}
